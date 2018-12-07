@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ArangoDB.Client\ArangoDB.Client.csproj" />
+    <ProjectReference Include="..\Jack.DataScience.Data.MongoDB\Sean.DataScience.Data.MongoDB.csproj" />
+    <ProjectReference Include="..\Jack.DataScience.Data.NpgSQL\Sean.DataScience.Data.NpgSQL.csproj" />
+  </ItemGroup>
+
+</Project>
